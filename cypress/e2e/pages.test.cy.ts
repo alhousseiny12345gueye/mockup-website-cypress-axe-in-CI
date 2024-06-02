@@ -2,9 +2,14 @@
 
 describe('Home', () => {
     it('should be accessible', () => {
-      cy.visit('/')
-      cy.injectAxe()
-      cy.checkA11y()
+        cy.task('sitemapLocations').then(pages => {
+            pages.forEach(page => {
+                cy.visit(page)
+                cy.injectAxe()
+                cy.checkA11y()
+            })
+        })
+      
     })
   })
 
