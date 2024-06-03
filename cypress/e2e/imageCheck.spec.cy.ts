@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 describe("Alt for Images", () => {
 
     beforeEach(() => {

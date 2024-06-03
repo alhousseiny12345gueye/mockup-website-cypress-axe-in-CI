@@ -17,7 +17,7 @@ function Footer() {
                     {" "}
                     <img
                       className="icon"
-                      aria-label="University Adress"
+                      alt="University Adress"
                       title="University Address"
                       src={buildingIcon}
                     />
@@ -30,7 +30,7 @@ function Footer() {
                   <a href="">
                     <img
                       className="icon"
-                      aria-label="Phone number"
+                      alt="Phone number"
                       title="Phone Number"
                       src={phoneIcon}
                     />
@@ -42,7 +42,7 @@ function Footer() {
                     {" "}
                     <img
                       className="icon"
-                      aria-label="Email adress"
+                      alt="Email adress"
                       title="Email Address"
                       src={mailIcon}
                     />

@@ -57,7 +57,7 @@ function ProgramOfStudy() {
                 <div className="col-6 col-md-4 col-lg-3 item">
                   <figure>
                     <div className="img">
-                      <img src={IT} alt="alt" />
+                      <img src={IT} alt="" />
                     </div>
                     <figcaption className="posFigCaption1">
                       <h4>Information Technology</h4>
@@ -79,11 +79,9 @@ function ProgramOfStudy() {
                 <div className="col-6 col-md-4 col-lg-3 item">
                   <figure>
                     <div className="img">
-                      <a href="">
-                        <img
-                          src={DA}
-                          alt="alt"
-                        />
+                      <a href="#" aria-label="Digital Art and design">
+                        <img src={DA} alt="" />
+                      
                       </a>
                     </div>
                     <figcaption className="posFigCaption2">
@@ -94,10 +92,10 @@ function ProgramOfStudy() {
                 <div className="col-6 col-md-4 col-lg-3 item">
                   <figure>
                     <div className="img">
-                      <a href="">
+                      <a href="" aria-label="Multimedia communication">
                         <img
                           src={MC}
-                          alt="alt"
+                          alt=""
                         />
                       </a>
                     </div>
@@ -115,7 +113,7 @@ function ProgramOfStudy() {
                     {/* <div className="img"> */}
                       <img
                         src={TH}
-                        alt="alt"
+                        alt=""
                       />
                     {/* </div> */}
                     <figcaption className="posFigCaption4">
@@ -140,7 +138,7 @@ function ProgramOfStudy() {
                     <div className="img">
                       <img
                         src={L}
-                        alt="alt"
+                        alt=""
                       />
                     </div>
                     <figcaption className="posFigCaption4">

@@ -1742,13 +1742,13 @@ ul {
 }
 .fpt-header .top-header .top-header-menu li {
   padding: 0 20px;
-  border-left: 1px solid #f26f21;
+  border-left: 1px solid #C34D09;
 }
 .fpt-header .top-header .top-header-menu li:nth-child(3) {
-  border-right: 1px solid #f26f21;
+  border-right: 1px solid #C34D09;
 }
 .fpt-header .top-header .top-header-menu li.active {
-  color: #f26f21;
+  color: #C34D09;
 }
 .fpt-header .top-header .top-header-menu a {
   text-decoration: none;
@@ -1770,7 +1770,7 @@ ul {
   }
 }
 .fpt-header .middle-header {
-  background: #f26f21;
+  background: #C34D09;
 }
 .fpt-header .middle-header.is_stuck {
   z-index: 999;
@@ -1906,7 +1906,7 @@ ul {
   height: 2.375rem;
   border: 0;
   border-radius: 0 5px 5px 0;
-  background: #f26f21;
+  background: #C34D09;
   color: #fff;
   font-size: 25px;
 }
@@ -1918,7 +1918,7 @@ ul {
     right: 0;
     left: 0;
     padding: 10px;
-    background: #f26f21;
+    background: #C34D09;
   }
   .fpt-header .search-wrapper input {
     width: 100%;
@@ -2023,7 +2023,7 @@ footer .copyright {
 }
 footer address,
 footer p {
-  color: #606060;
+  color: #303030;
   font-family: Mulish;
   font-size: 13px;
   line-height: 20px;
@@ -4707,11 +4707,11 @@ main section {
 }
 
 h3{
-  color: rgb(247, 158, 75);
+  color: #B6502B;
 }
 
 h1 {
-  color: rgb(247, 158, 75);
+  color: #B6502B;
 }
 
 .h3-footer {
@@ -4798,7 +4798,7 @@ input, select {
 
 .h1POS {
   margin-bottom: 20px;
-  color: #f26f21;
+  color: #BA592C;
   font-size: 30px;
   line-height: 1;
   text-transform: uppercase;
@@ -4814,7 +4814,7 @@ input, select {
 }
 
 .containerPOS {
-  background-color: #fff;
+  background-color: #BA592C ;
 }
 
 .posFigCaption1 {
@@ -4847,7 +4847,7 @@ input, select {
 
 
 .liPOS {
-  background-color: #f26f21;
+  background-color: #BA592C;
   padding-left: 5px;
   margin-bottom: 5px;
 }

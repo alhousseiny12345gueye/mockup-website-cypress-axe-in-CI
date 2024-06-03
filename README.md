@@ -1,3 +1,4 @@
+# this project is an on giong work in progress
 # Accessible University Website Prototype - CI/CD Accessibility Testing
 
 This project is an extension of a school project conducted by my group, where we reviewed the accessibility of two pages of a university website. The goal of this current project is to build upon that foundation by implementing accessibility testing as part of a Continuous Integration (CI) pipeline.
