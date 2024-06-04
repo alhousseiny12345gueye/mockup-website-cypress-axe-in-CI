@@ -92,15 +92,13 @@ export default function Contact() {
           <div className="col-lg-4 Module">
             <div className="ModuleContent">
               <div className="contactInfo">
-                <figure className="contactFigcaption">
-                  <figcaption>FPT UNIVERSITY</figcaption>
-                </figure>
+                <h2 className="contactFigcaption">FPT UNIVERSITY</h2>
                 <ul>
                   <li className="li-contact">
                     <a href="">
                       <img
                         className="icon_contact"
-                        aria-label="University Adress"
+                        alt="University Adress"
                         title="University Address"
                         src={buildingIcon}
                       />
@@ -112,7 +110,7 @@ export default function Contact() {
                     <a href="">
                       <img
                         className="icon_contact"
-                        aria-label="Phone number"
+                        alt="Phone number"
                         title="Phone Number"
                         src={phoneIcon}
                       />
@@ -124,7 +122,7 @@ export default function Contact() {
                       {" "}
                       <img
                         className="icon_contact"
-                        aria-label="Email adress"
+                        alt="Email adress"
                         title="Email Address"
                         src={mailIcon}
                       />

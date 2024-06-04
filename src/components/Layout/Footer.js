@@ -18,7 +18,6 @@ function Footer() {
                     <img
                       className="icon"
                       alt="University Adress"
-                      title="University Address"
                       src={buildingIcon}
                     />
                     D1 Street, Saigon Hi-tech Park, Long Thanh My Ward, Thu Duc
@@ -31,7 +30,6 @@ function Footer() {
                     <img
                       className="icon"
                       alt="Phone number"
-                      title="Phone Number"
                       src={phoneIcon}
                     />
                     (028) 7300 5588
@@ -43,7 +41,6 @@ function Footer() {
                     <img
                       className="icon"
                       alt="Email adress"
-                      title="Email Address"
                       src={mailIcon}
                     />
                     daihoc.hcm@fpt.edu.vn{" "}
@@ -104,8 +101,9 @@ function Footer() {
               <a href="" aria-label="Instagram logo" title="Instagram logo">
                 <i className="icon ion-social-instagram"></i>
               </a>
-              <p className="copyright">Copyright © FPT University</p>
+              
             </div>
+            <p className="copyright">Copyright © FPT University</p>
           </div>
         </div>
       </footer>

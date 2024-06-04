@@ -38,7 +38,7 @@ function ProgramOfStudy() {
                       />
                     </div>
                     <figcaption className="posFigCaption1">
-                      <h4>Business Administration</h4>
+                      <h2>Business Administration</h2>
                       <ul>
                         <li className="liPOS">
                           <a href="">
@@ -60,7 +60,7 @@ function ProgramOfStudy() {
                       <img src={IT} alt="" />
                     </div>
                     <figcaption className="posFigCaption1">
-                      <h4>Information Technology</h4>
+                      <h2>Information Technology</h2>
                       <ul>
                       <li className="liPOS">
                           <a href="">
@@ -85,7 +85,7 @@ function ProgramOfStudy() {
                       </a>
                     </div>
                     <figcaption className="posFigCaption2">
-                      <h4>Digital Art &amp; Design</h4>
+                      <h2>Digital Art &amp; Design</h2>
                     </figcaption>
                   </figure>
                 </div>
@@ -100,11 +100,11 @@ function ProgramOfStudy() {
                       </a>
                     </div>
                     <figcaption className="posFigCaption3">
-                      <h4>
+                      <h2>
                         Multimedia
                         <br />
                         Communication
-                      </h4>
+                      </h2>
                     </figcaption>
                   </figure>
                 </div>
@@ -117,7 +117,7 @@ function ProgramOfStudy() {
                       />
                     {/* </div> */}
                     <figcaption className="posFigCaption4">
-                      <h4>Travel &amp; Hotel</h4>
+                      <h2>Travel &amp; Hotel</h2>
                       <ul>
                       <li className="liPOS">
                           <a href="">
@@ -142,7 +142,7 @@ function ProgramOfStudy() {
                       />
                     </div>
                     <figcaption className="posFigCaption4">
-                      <h4>Language</h4>
+                      <h2>Language</h2>
                       <ul>
                       <li className="liPOS">
                           <a href="">
