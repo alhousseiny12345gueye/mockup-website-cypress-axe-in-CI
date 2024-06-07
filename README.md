@@ -30,13 +30,14 @@ And now below are the results of the test after iterating fixes we for the acces
 
 ![log showing accessibility report with 0 issues with the logs of cypress](public/mockup_website_cypress_axe_in_CI/lastly_after_all_fixes_cypress_UI_shows_0_a11y_errors.png "test result after fixing issues shown by cypress axe")
 
+Below are a11y issues shown after test with wave on the browser
 ![errors shown after first test with wave browser extension](public/mockup_website_cypress_axe_in_CI/wave_first_home_page_check.png "errors shown after first test with wave browser extension of home page")
 
 ![errors shown after first test with wave browser extension](public/mockup_website_cypress_axe_in_CI/wave_first_contact_page_check.png "errors shown after first test with wave browser extension of contact page")
 
 And now below are the results of the test after iterating fixes we for the accessibility issues caught by cypress axe and the errors wave caught as well.
 
-![errors shown after all fixes made ](public/mockup_website_cypress_axe_in_CI/after_wave_first_home_page_check "errors shown after first test with wave browser extension of home page")
+![errors shown after all fixes made ](public/mockup_website_cypress_axe_in_CI/after_wave_first_home_page_check.png "errors shown after first test with wave browser extension of home page")
 
 ![errors shown after all fixes made ](public/mockup_website_cypress_axe_in_CI/after_wave_first_contact_page_check.png "errors shown after first test with wave browser extension of home page")
 
