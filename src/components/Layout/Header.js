@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="fpt-header">
+    <header className="fpt-header" role="nav">
+      <a href="#main-content" className="skip-link">Skip to main content</a>
         <section className="middle-header">
           <div className="container">
             <div className="">

@@ -74,7 +74,7 @@ export default function Contact() {
   }, [])
 
   return (
-    <section className="lien-he">
+    <section className="lien-he" id="main-content">
       <div className="container">
         <div className="Module Module-218">
           <div className="ModuleContent">
@@ -99,7 +99,6 @@ export default function Contact() {
                       <img
                         className="icon_contact"
                         alt="University Adress"
-                        title="University Address"
                         src={buildingIcon}
                       />
                       D1 Street, Saigon Hi-tech Park, Long Thanh My Ward, Thu
@@ -111,7 +110,6 @@ export default function Contact() {
                       <img
                         className="icon_contact"
                         alt="Phone number"
-                        title="Phone Number"
                         src={phoneIcon}
                       />
                       (028) 7300 5588
@@ -123,7 +121,6 @@ export default function Contact() {
                       <img
                         className="icon_contact"
                         alt="Email adress"
-                        title="Email Address"
                         src={mailIcon}
                       />
                       daihoc.hcm@fpt.edu.vn{" "}
@@ -153,7 +150,7 @@ export default function Contact() {
                             type="text"
                             id="fullName"
                             placeholder="John Doe"
-                            autoComplete="John Doe"
+                            autoComplete="name"
                             aria-required="true"
                             aria-invalid={errors.fullName ? "true" : "false"}
                             aria-describedby="name-error"
@@ -163,6 +160,9 @@ export default function Contact() {
                             <div id="name-error" role="alert" className="error-message">
                               You must enter your name
                             </div>
+                            // the automated testing tools show this as an invalid aria-describeby label 
+                            // however the code that execute as intended, with screen readers as well 
+                            // and it does show the alert message as supposed. 
                           )}
                         </div>
                         <div className="form-group qtext require col-md-6">
@@ -174,7 +174,7 @@ export default function Contact() {
                             type="email"
                             id="emailForm"
                             placeholder="johndoe@example.com"
-                            autoComplete="johndoe@example.com"
+                            autoComplete="email"
                             aria-required="true"
                             aria-invalid={errors.email ? "true" : "false"}
                             aria-describedby="email-error"
@@ -195,11 +195,12 @@ export default function Contact() {
                             <label className="label" htmlFor="countrySelect">
                               Country Select
                             </label>
-                            <CountrySelect
-                              labels={en}
-                              value={country}
-                              onChange={setCountry}
-                            />
+                              <CountrySelect
+                                labels={en}
+                                value={country}
+                                onChange={setCountry}
+                                id="countrySelect"
+                              />
                           </div>
                         </div>
                         <div className="form-group qtext require col-md-6">
@@ -211,7 +212,7 @@ export default function Contact() {
                             type="tel"
                             id="phoneNumber"
                             placeholder="123456789"
-                            autoComplete="123456789"
+                            autoComplete="tel"
                             aria-required="true"
                             aria-invalid={errors.phoneNumber ? "true" : "false"}
                             aria-describedby="email-error"

@@ -8,7 +8,7 @@ import MC from '../../../resources/img/multimedia_communication.jpg'
 
 function ProgramOfStudy() {
   return (
-    <section className="fpt-tuyensinh-nganhdaotao">
+    <section className="fpt-tuyensinh-nganhdaotao" id="main-content">
       {" "}
       <div className="container ">
         <div className="section-wrapper">
