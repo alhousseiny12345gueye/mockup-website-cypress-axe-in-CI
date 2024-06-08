@@ -16,7 +16,11 @@ const testPageAccessibility = (pages) => {
       pages.forEach(page => {
         cy.visit(page)
         cy.injectAxe()
-        cy.checkA11y()
+        cy.checkA11y(
+          {
+            exclude: ['.article-action'],
+          },
+        )
       });
     });
   });

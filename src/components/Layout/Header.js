@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="fpt-header" role="nav">
-      <a href="#main-content" className="skip-link">Skip to main content</a>
+    <header className="fpt-header" >
+      <nav role="navigation">
+      <a href="#main-content" className="skip-link" >Skip to main content</a>
         <section className="middle-header">
           <div className="container">
             <div className="">
@@ -23,6 +24,7 @@ function Header() {
             </div>
           </div>
         </section>
+        </nav>
       <section className="bottom-header">
         <div className="container">
           <div className="bottom-header-wrapper">
