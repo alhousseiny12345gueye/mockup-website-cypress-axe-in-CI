@@ -35,3 +35,22 @@
 //     }
 //   }
 // }
+
+Cypress.Commands.add('scrollWindow', (direction) => {
+    cy.window().then((win) => {
+      switch(direction) {
+        case 'up':
+          win.scrollBy(0, -100);
+          break;
+        case 'down':
+          win.scrollBy(0, 100);
+          break;
+        case 'left':
+          win.scrollBy(-100, 0);
+          break;
+        case 'right':
+          win.scrollBy(100, 0);
+          break;
+      }
+    });
+  });
